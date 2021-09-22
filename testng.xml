@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Loan Department">
+  <test thread-count="5" name="Personal Loan">
+  <packages>
+  
+  		<package name="Test" />
+  		
+  </packages>
+  
+    <classes>
+      <class name="Test.Car"/>
+       <class name="Test.Car2"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  <test name = "Car Loan">
+  
+  <classes>
+  
+  <class name = "Test.Car3">
+   <methods>
+    <exclude name ="Mobile.*" />
+   </methods>
+  </class>
+  
+  </classes>
+  
+  </test>
+  
+</suite> <!-- Suite -->
