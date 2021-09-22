@@ -14,6 +14,8 @@ public class Car {
 	public void Honk() {
 		
 		System.out.println("test");
+		System.out.println("postjira2");
+		System.out.println("postjira3");
 	}
 	
 	@Test
